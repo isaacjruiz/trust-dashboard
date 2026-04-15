@@ -30,7 +30,7 @@ export function useCases() {
       const res = await axios.get<{ cases: CaseDecision[]; total: number }>(
         `${BASE}/cases?${params.toString()}`
       );
-      setCases(res.data.cases);
+      setCases(res.data.cases ?? []);
     } finally {
       setLoading(false);
     }

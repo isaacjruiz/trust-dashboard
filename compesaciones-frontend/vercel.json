@@ -3,11 +3,12 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
-    { "source": "/cases/(.*)", "destination": "https://your-backend.railway.app/cases/$1" },
-    { "source": "/metrics", "destination": "https://your-backend.railway.app/metrics" },
-    { "source": "/ingest/(.*)", "destination": "https://your-backend.railway.app/ingest/$1" },
-    { "source": "/export/(.*)", "destination": "https://your-backend.railway.app/export/$1" },
-    { "source": "/agent/(.*)", "destination": "https://your-backend.railway.app/agent/$1" },
+    { "source": "/cases", "destination": "https://rappi-trust-agent-production.up.railway.app/cases" },
+    { "source": "/cases/(.*)", "destination": "https://rappi-trust-agent-production.up.railway.app/cases/$1" },
+    { "source": "/metrics", "destination": "https://rappi-trust-agent-production.up.railway.app/metrics" },
+    { "source": "/ingest/(.*)", "destination": "https://rappi-trust-agent-production.up.railway.app/ingest/$1" },
+    { "source": "/export/(.*)", "destination": "https://rappi-trust-agent-production.up.railway.app/export/$1" },
+    { "source": "/agent/(.*)", "destination": "https://rappi-trust-agent-production.up.railway.app/agent/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
