@@ -1,0 +1,51 @@
+caso_id	usuario_id	antiguedad_usuario_dias	ciudad	vertical	restaurante	valor_orden_mxn	compensacion_solicitada_mxn	num_compensaciones_90d	monto_compensado_90d_mxn	entrega_confirmada_gps	tiempo_entrega_real_min	flags_fraude_previos	motivo_reclamo	descripcion_reclamo	recomendacion_agente
+COMP-0151	USR-93810	12	Monterrey	Farmacia	Taquería El Torito	513.09	483.62	6	663.73	SÍ - confirmada	91	0	Producto incompleto	Solo llegó parte de mi pedido, faltó la bebida.	PENDIENTE
+COMP-0152	USR-38893	970	CDMX	Comida	El Asadero del Norte	350.47	235.61	1	1083.35	Señal perdida	97	0	Producto en mal estado	El producto estaba caducado según la fecha en el empaque.	PENDIENTE
+COMP-0153	USR-70217	39	Tijuana	Farmacia	Mariscos Premium	646.69	458.58	1	875.27	SÍ - confirmada	49	0	Orden llegó tarde	La orden prometía 30 minutos y tardó más de 2 horas.	PENDIENTE
+COMP-0154	USR-59823	1702	Monterrey	Mercado	Parrilla Clásica	214.08	142.89	14	741.98	Parcial	68	1	Producto en mal estado	La carne tenía un color extraño y no se veía fresca.	PENDIENTE
+COMP-0155	USR-83000	19	CDMX	Mercado	Tortas Don Chuy	251.35	161.58	14	2655.2	Parcial	38	2	Producto en mal estado	El producto estaba caducado según la fecha en el empaque.	PENDIENTE
+COMP-0156	USR-42325	52	Cali	Mercado	Cevichería El Rey	453.46	321.63	1	2584.7	NO confirmada	100	2	Producto incompleto	Solo llegó parte de mi pedido, faltó la bebida.	PENDIENTE
+COMP-0157	USR-88172	258	Bogotá	Farmacia	Burger Express	701.49	651.5	6	807.81	Señal perdida	34	1	Producto en mal estado	La comida llegó con olor a descompuesto.	PENDIENTE
+COMP-0158	USR-30730	940	Lima	Comida	Pizzería Artesanal	664.08	619.61	13	2289.91	SÍ - confirmada	96	0	Producto en mal estado	La comida llegó con olor a descompuesto.	PENDIENTE
+COMP-0159	USR-12552	12	Puebla	Farmacia	Taquería El Torito	134.82	102.98	4	1431.09	NO confirmada	53	1	Orden cancelada sin reembolso	Cancelaron mi orden por falta de repartidor y no me reembolsaron.	PENDIENTE
+COMP-0160	USR-37760	163	Buenos Aires	Farmacia	Parrilla Clásica	360.38	280.28	0	1769.04	NO confirmada	95	0	Producto incompleto	No incluyeron las salsas ni los cubiertos.	PENDIENTE
+COMP-0161	USR-19305	50	São Paulo	Comida	Los Tacos de Siempre	291.47	226.25	2	2807.19	Parcial	51	0	Orden llegó tarde	Me tardé 1.5 horas más de lo estimado, la comida ya no servía.	PENDIENTE
+COMP-0162	USR-63354	109	Querétaro	Mercado	Tortas Don Chuy	378.9	329.94	0	2586.4	NO confirmada	44	0	Producto incompleto	Solo llegó parte de mi pedido, faltó la bebida.	PENDIENTE
+COMP-0163	USR-28373	154	Santiago	Comida	Sushi Fusión	597.13	553.32	5	54.13	SÍ - confirmada	50	1	Producto incompleto	Solo llegó parte de mi pedido, faltó la bebida.	PENDIENTE
+COMP-0164	USR-73653	1222	Monterrey	Mercado	La Cocina de Doña Rosa	710.6	473.75	3	2986.31	Parcial	39	3	Producto incompleto	Faltaron 2 tacos de los 5 que pedí.	PENDIENTE
+COMP-0165	USR-38534	8	Querétaro	Comida	La Cocina de Doña Rosa	453.87	350.05	13	2555.51	SÍ - confirmada	96	2	Producto incorrecto	Pedí tacos de res y llegaron de pollo.	PENDIENTE
+COMP-0166	USR-62923	352	CDMX	Farmacia	Taquería El Torito	348.3	281.01	10	2151.41	NO confirmada	53	0	Orden no llegó	El repartidor marcó como entregado pero nunca llegó a mi puerta.	PENDIENTE
+COMP-0167	USR-98039	214	Lima	Comida	La Cocina de Doña Rosa	373.3	369.31	0	406.05	Señal perdida	28	1	Producto incompleto	Faltaron 2 tacos de los 5 que pedí.	PENDIENTE
+COMP-0168	USR-47353	1513	Cali	Farmacia	Pizzería Artesanal	85.01	77.32	6	355.13	SÍ - confirmada	115	0	Orden cancelada sin reembolso	El restaurante canceló pero el cargo sigue en mi tarjeta.	PENDIENTE
+COMP-0169	USR-45697	832	Puebla	Farmacia	Café Gourmet	625.86	483.4	2	837.27	SÍ - confirmada	62	0	Orden llegó tarde	La orden prometía 30 minutos y tardó más de 2 horas.	PENDIENTE
+COMP-0170	USR-93507	143	Barranquilla	Farmacia	La Cocina de Doña Rosa	151.6	146.42	1	1662.05	Parcial	36	0	Producto incorrecto	El refresco que llegó no es el que pedí.	PENDIENTE
+COMP-0171	USR-57795	55	Puebla	Farmacia	Taquería El Torito	306.35	243.96	14	717.84	NO confirmada	42	3	Orden no llegó	La app dice que fue entregado pero no recibí nada. Estuve en casa todo el día.	PENDIENTE
+COMP-0172	USR-33509	1244	Santiago	Farmacia	Carnitas La Familia	238.83	148.09	11	675.08	Parcial	64	2	Producto en mal estado	El producto estaba caducado según la fecha en el empaque.	PENDIENTE
+COMP-0173	USR-39219	398	Tijuana	Comida	Carnitas La Familia	258.64	215.25	3	2632.34	Señal perdida	42	0	Orden cancelada sin reembolso	Cancelaron mi orden por falta de repartidor y no me reembolsaron.	PENDIENTE
+COMP-0174	USR-15014	366	Lima	Mercado	Tortas Don Chuy	467.97	362.69	3	1313.81	NO confirmada	66	0	Orden no llegó	La app dice que fue entregado pero no recibí nada. Estuve en casa todo el día.	PENDIENTE
+COMP-0175	USR-97062	380	Guadalajara	Farmacia	Cevichería El Rey	272.21	186.76	3	390.59	Parcial	105	0	Orden no llegó	El repartidor marcó como entregado pero nunca llegó a mi puerta.	PENDIENTE
+COMP-0176	USR-90676	215	CDMX	Mercado	Burger Express	214.52	192.15	4	648.97	Parcial	114	0	Producto incompleto	No incluyeron las salsas ni los cubiertos.	PENDIENTE
+COMP-0177	USR-47196	400	Guadalajara	Comida	Café Gourmet	278.67	252.17	1	1837.71	SÍ - confirmada	78	4	Orden no llegó	El repartidor marcó como entregado pero nunca llegó a mi puerta.	PENDIENTE
+COMP-0178	USR-60328	36	Córdoba	Comida	Cevichería El Rey	560.62	498.29	0	2090.78	Parcial	26	2	Orden cancelada sin reembolso	El restaurante canceló pero el cargo sigue en mi tarjeta.	PENDIENTE
+COMP-0179	USR-25906	129	Medellín	Farmacia	Parrilla Clásica	688.03	648.28	4	1343.28	NO confirmada	115	3	Orden llegó tarde	Me tardé 1.5 horas más de lo estimado, la comida ya no servía.	PENDIENTE
+COMP-0180	USR-68991	21	Lima	Farmacia	Sushi Fusión	481.12	322.75	6	2680.15	SÍ - confirmada	37	2	Producto incompleto	Faltó una orden de papas fritas.	PENDIENTE
+COMP-0181	USR-60205	49	Barranquilla	Mercado	Pizzería Artesanal	378.19	218.37	11	2089.61	Parcial	81	1	Producto incorrecto	El refresco que llegó no es el que pedí.	PENDIENTE
+COMP-0182	USR-49139	260	Córdoba	Farmacia	Carnitas La Familia	466.08	301.57	1	1015.03	Parcial	112	0	Producto incompleto	Solo llegó parte de mi pedido, faltó la bebida.	PENDIENTE
+COMP-0183	USR-26728	456	Cali	Farmacia	Café Gourmet	97.35	81.07	1	988.78	Parcial	61	0	Producto en mal estado	La comida llegó con olor a descompuesto.	PENDIENTE
+COMP-0184	USR-46471	917	Bogotá	Comida	El Asadero del Norte	425.23	420.96	8	1958.75	SÍ - confirmada	51	2	Producto incompleto	No incluyeron las salsas ni los cubiertos.	PENDIENTE
+COMP-0185	USR-91439	183	Guadalajara	Farmacia	El Rincón Colombiano	377.62	250.27	7	2157.89	NO confirmada	59	3	Producto incorrecto	Llegó comida diferente, creo que confundieron mi pedido.	PENDIENTE
+COMP-0186	USR-50888	1213	Puebla	Comida	Mariscos Premium	521.99	431.16	9	371.95	SÍ - confirmada	64	1	Orden cancelada sin reembolso	Cancelaron mi orden por falta de repartidor y no me reembolsaron.	PENDIENTE
+COMP-0187	USR-96706	96	CDMX	Mercado	Los Tacos de Siempre	393.73	291.66	12	2204.05	Señal perdida	98	0	Orden llegó tarde	Llegó tan tarde que la comida estaba fría e inutilizable.	PENDIENTE
+COMP-0188	USR-73372	34	Santiago	Comida	Los Tacos de Siempre	678.16	456.22	8	2007.88	Señal perdida	23	1	Orden no llegó	Esperé 90 minutos y la orden nunca llegó, el repartidor no contestó.	PENDIENTE
+COMP-0189	USR-33834	1127	Querétaro	Mercado	Cevichería El Rey	461.54	432.58	4	731.65	Parcial	82	0	Orden cancelada sin reembolso	El restaurante canceló pero el cargo sigue en mi tarjeta.	PENDIENTE
+COMP-0190	USR-72402	1318	Guadalajara	Mercado	El Rincón Colombiano	338.82	222.62	4	1282.26	Señal perdida	65	1	Cobro incorrecto	El monto cobrado no corresponde a lo que aparece en mi resumen.	PENDIENTE
+COMP-0191	USR-45509	24	Puebla	Mercado	Taquería El Torito	555.44	537.88	7	2176.51	Señal perdida	32	2	Orden llegó tarde	La orden prometía 30 minutos y tardó más de 2 horas.	PENDIENTE
+COMP-0192	USR-48829	245	Córdoba	Farmacia	La Fonda Casera	255.56	250.11	9	2606.7	Parcial	33	0	Orden llegó tarde	La orden prometía 30 minutos y tardó más de 2 horas.	PENDIENTE
+COMP-0193	USR-85243	301	Monterrey	Comida	Burger Express	682.28	518.67	0	2062.49	NO confirmada	39	1	Orden llegó tarde	Llegó tan tarde que la comida estaba fría e inutilizable.	PENDIENTE
+COMP-0194	USR-49824	188	Barranquilla	Farmacia	Mariscos Premium	586.07	380.54	4	2581.9	Parcial	59	0	Orden cancelada sin reembolso	El restaurante canceló pero el cargo sigue en mi tarjeta.	PENDIENTE
+COMP-0195	USR-89905	111	Tijuana	Farmacia	Taquería El Torito	180.52	113.09	0	1785.5	Señal perdida	24	0	Producto incompleto	Faltaron 2 tacos de los 5 que pedí.	PENDIENTE
+COMP-0196	USR-47056	293	São Paulo	Mercado	Carnitas La Familia	586.4	474.7	1	455.48	Señal perdida	38	0	Producto incorrecto	Llegó comida diferente, creo que confundieron mi pedido.	PENDIENTE
+COMP-0197	USR-31747	1619	Cali	Mercado	Sushi Fusión	159.59	136.13	3	250.52	SÍ - confirmada	75	0	Cobro incorrecto	El monto cobrado no corresponde a lo que aparece en mi resumen.	PENDIENTE
+COMP-0198	USR-89129	21	Buenos Aires	Farmacia	Mariscos Premium	688.5	681.49	9	1416.8	Parcial	55	3	Producto incompleto	Solo llegó parte de mi pedido, faltó la bebida.	PENDIENTE
+COMP-0199	USR-93202	312	Barranquilla	Mercado	Parrilla Clásica	508.89	471.95	11	2836.13	SÍ - confirmada	78	0	Producto incorrecto	El refresco que llegó no es el que pedí.	PENDIENTE
+COMP-0200	USR-43082	1228	Santiago	Comida	Café Gourmet	636.4	479.38	0	1500.49	Parcial	26	1	Producto incompleto	Faltaron 2 tacos de los 5 que pedí.	PENDIENTE

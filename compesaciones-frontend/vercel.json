@@ -1,0 +1,13 @@
+{
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/cases/(.*)", "destination": "https://your-backend.railway.app/cases/$1" },
+    { "source": "/metrics", "destination": "https://your-backend.railway.app/metrics" },
+    { "source": "/ingest/(.*)", "destination": "https://your-backend.railway.app/ingest/$1" },
+    { "source": "/export/(.*)", "destination": "https://your-backend.railway.app/export/$1" },
+    { "source": "/agent/(.*)", "destination": "https://your-backend.railway.app/agent/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

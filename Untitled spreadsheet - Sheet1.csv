@@ -1,0 +1,152 @@
+  CASO 3 — Dataset de Revisión de Compensaciones por Posible Fraude  |  150 casos  |  Estado: Pendiente revisión,,,,,,,,,,,,,,,
+caso_id,usuario_id,antiguedad_usuario_dias,ciudad,vertical,restaurante,valor_orden_mxn,compensacion_solicitada_mxn,num_compensaciones_90d,monto_compensado_90d_mxn,entrega_confirmada_gps,tiempo_entrega_real_min,flags_fraude_previos,motivo_reclamo,descripcion_reclamo,recomendacion_agente
+COMP-0001,USR-11567,1590,CDMX,Comida,La Cocina de Doña Rosa,668.79,423.76,2,103.53,NO confirmada,56,0,Producto incorrecto,"Llegó comida diferente, creo que confundieron mi pedido.",PENDIENTE
+COMP-0002,USR-18450,229,Bogotá,Mercado,El Rincón Colombiano,166.56,153.91,2,334.39,Parcial,60,1,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0003,USR-13864,200,Buenos Aires,Mercado,La Cocina de Doña Rosa,226.34,203.15,2,691.29,NO confirmada,53,1,Producto incompleto,No incluyeron las salsas ni los cubiertos.,PENDIENTE
+COMP-0004,USR-64000,1158,Tijuana,Mercado,Taquería El Torito,299.73,285.9,2,99.66,Señal perdida,105,0,Orden no llegó,La app dice que fue entregado pero no recibí nada. Estuve en casa todo el día.,PENDIENTE
+COMP-0005,USR-12559,1458,Buenos Aires,Comida,Los Tacos de Siempre,451.2,340.82,0,10.43,Señal perdida,69,0,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0006,USR-13840,1496,Medellín,Comida,El Rincón Colombiano,699.8,692.52,0,99.14,NO confirmada,72,0,Orden llegó tarde,"Me tardé 1.5 horas más de lo estimado, la comida ya no servía.",PENDIENTE
+COMP-0007,USR-79951,655,CDMX,Comida,La Fonda Casera,288.05,241.1,2,279.05,Señal perdida,56,0,Producto en mal estado,El producto estaba caducado según la fecha en el empaque.,PENDIENTE
+COMP-0008,USR-56095,312,Querétaro,Farmacia,La Cocina de Doña Rosa,326.01,188.76,2,272.21,NO confirmada,73,0,Cobro incorrecto,Me cobraron dos veces el mismo pedido.,PENDIENTE
+COMP-0009,USR-12612,234,Puebla,Mercado,Taquería El Torito,392.44,358.47,4,247.64,NO confirmada,72,2,Producto incompleto,No incluyeron las salsas ni los cubiertos.,PENDIENTE
+COMP-0010,USR-28566,1656,Guadalajara,Farmacia,Tortas Don Chuy,397.8,254.76,1,129.04,NO confirmada,101,0,Producto incompleto,Faltaron 2 tacos de los 5 que pedí.,PENDIENTE
+COMP-0011,USR-67261,42,Barranquilla,Comida,La Cocina de Doña Rosa,218.46,204.88,9,880.17,SÍ - confirmada,22,4,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0012,USR-85082,373,Buenos Aires,Farmacia,Taquería El Torito,203.94,153.87,5,312.51,SÍ - confirmada,50,1,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0013,USR-51879,843,Monterrey,Comida,Tortas Don Chuy,304.84,267.43,1,102.66,NO confirmada,101,0,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0014,USR-10167,271,CDMX,Mercado,Los Tacos de Siempre,307.37,206.07,6,500.28,Parcial,71,2,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0015,USR-39567,952,Monterrey,Mercado,Burger Express,330.56,212.18,1,68.04,NO confirmada,65,0,Producto en mal estado,La comida llegó con olor a descompuesto.,PENDIENTE
+COMP-0016,USR-19830,75,Tijuana,Comida,El Asadero del Norte,283.9,225.46,6,911.8,NO confirmada,38,0,Cobro incorrecto,Me aplicaron el precio sin descuento aunque tenía cupón activo.,PENDIENTE
+COMP-0017,USR-53397,212,Bogotá,Comida,Carnitas La Familia,210.27,109.83,6,639.73,Parcial,44,0,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0018,USR-57294,6,CDMX,Mercado,Burger Express,115.18,111.01,6,1641.86,SÍ - confirmada,25,3,Producto incompleto,"Solo llegó parte de mi pedido, faltó la bebida.",PENDIENTE
+COMP-0019,USR-62096,39,Barranquilla,Mercado,Parrilla Clásica,145.88,136.7,11,1412.68,SÍ - confirmada,36,2,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0020,USR-44510,609,Cali,Mercado,Pizzería Artesanal,576.12,499.49,0,267.26,Señal perdida,81,0,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0021,USR-87296,274,Bogotá,Farmacia,Taquería El Torito,486.94,394.02,5,658.17,NO confirmada,65,1,Producto en mal estado,El producto estaba caducado según la fecha en el empaque.,PENDIENTE
+COMP-0022,USR-20348,377,Buenos Aires,Comida,Café Gourmet,176.03,163.21,5,338.3,NO confirmada,48,0,Cobro incorrecto,Me aplicaron el precio sin descuento aunque tenía cupón activo.,PENDIENTE
+COMP-0023,USR-26539,45,CDMX,Mercado,Burger Express,105.14,100.88,10,2603.77,SÍ - confirmada,24,2,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0024,USR-60868,325,Tijuana,Mercado,Café Gourmet,593.28,503.83,2,312.67,NO confirmada,81,0,Producto incompleto,Faltó una orden de papas fritas.,PENDIENTE
+COMP-0025,USR-29613,348,Guadalajara,Farmacia,La Fonda Casera,416.23,355.29,6,904.11,Parcial,51,1,Cobro incorrecto,Me cobraron dos veces el mismo pedido.,PENDIENTE
+COMP-0026,USR-95824,30,Barranquilla,Farmacia,La Fonda Casera,104.45,100.36,11,685.32,SÍ - confirmada,32,4,Orden llegó tarde,La orden prometía 30 minutos y tardó más de 2 horas.,PENDIENTE
+COMP-0027,USR-41139,24,CDMX,Mercado,Parrilla Clásica,132.86,130.77,6,2739.49,SÍ - confirmada,29,2,Producto incompleto,Faltó una orden de papas fritas.,PENDIENTE
+COMP-0028,USR-49384,105,Cali,Comida,Pizzería Artesanal,191.42,113.92,5,792.76,Señal perdida,38,2,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0029,USR-30836,38,CDMX,Comida,Mariscos Premium,229.49,207.21,8,2525.4,SÍ - confirmada,28,2,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0030,USR-42701,1250,CDMX,Mercado,Taquería El Torito,452.56,386.56,0,272.47,NO confirmada,78,0,Producto incompleto,No incluyeron las salsas ni los cubiertos.,PENDIENTE
+COMP-0031,USR-74066,1016,Córdoba,Mercado,La Cocina de Doña Rosa,372.12,347.96,1,299.58,Señal perdida,60,0,Producto en mal estado,El producto estaba caducado según la fecha en el empaque.,PENDIENTE
+COMP-0032,USR-47364,391,CDMX,Mercado,Taquería El Torito,205.54,121.89,5,610.62,SÍ - confirmada,65,0,Producto incorrecto,Pedí tacos de res y llegaron de pollo.,PENDIENTE
+COMP-0033,USR-94852,925,Monterrey,Farmacia,El Rincón Colombiano,556.37,491.69,1,169.52,NO confirmada,109,0,Orden no llegó,"Esperé 90 minutos y la orden nunca llegó, el repartidor no contestó.",PENDIENTE
+COMP-0034,USR-55706,379,Cali,Comida,Sushi Fusión,270.92,147.93,6,999.54,Señal perdida,70,2,Orden llegó tarde,Llegó tan tarde que la comida estaba fría e inutilizable.,PENDIENTE
+COMP-0035,USR-87826,988,Córdoba,Comida,Pizzería Artesanal,694.18,594.38,1,104.46,Señal perdida,96,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0036,USR-49163,367,Bogotá,Comida,Café Gourmet,273.56,176.12,3,777.03,Parcial,53,1,Producto en mal estado,La comida llegó con olor a descompuesto.,PENDIENTE
+COMP-0037,USR-64862,1760,Buenos Aires,Mercado,Mariscos Premium,311.18,253.26,1,362.61,Señal perdida,77,0,Orden no llegó,"Esperé 90 minutos y la orden nunca llegó, el repartidor no contestó.",PENDIENTE
+COMP-0038,USR-76494,1264,Lima,Comida,Tortas Don Chuy,263.97,185.69,2,305.17,NO confirmada,98,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0039,USR-53992,978,CDMX,Comida,El Asadero del Norte,385.84,321.88,1,340.49,NO confirmada,58,0,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0040,USR-93151,316,Querétaro,Farmacia,La Fonda Casera,165.53,133.47,6,438.68,SÍ - confirmada,44,0,Orden no llegó,Marcaron entregado pero mi vecino dice que nadie tocó el timbre.,PENDIENTE
+COMP-0041,USR-36253,1765,Lima,Mercado,La Fonda Casera,290.18,183.49,1,252.41,NO confirmada,75,0,Orden llegó tarde,La orden prometía 30 minutos y tardó más de 2 horas.,PENDIENTE
+COMP-0042,USR-93165,146,CDMX,Comida,Los Tacos de Siempre,338.99,193.66,2,303.52,Parcial,75,1,Producto incompleto,No incluyeron las salsas ni los cubiertos.,PENDIENTE
+COMP-0043,USR-62873,1796,São Paulo,Mercado,Carnitas La Familia,386.55,234.11,1,302.74,Señal perdida,67,0,Orden no llegó,El repartidor marcó como entregado pero nunca llegó a mi puerta.,PENDIENTE
+COMP-0044,USR-12348,510,CDMX,Comida,Sushi Fusión,391.78,327.32,0,26.11,NO confirmada,74,0,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0045,USR-48119,1706,Cali,Farmacia,La Fonda Casera,697.74,514.3,1,143.7,NO confirmada,65,0,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0046,USR-62873,6,CDMX,Comida,Sushi Fusión,180.25,165.27,10,2164.44,SÍ - confirmada,23,3,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0047,USR-93928,394,Medellín,Farmacia,La Fonda Casera,437.73,228.37,2,533.42,Parcial,42,2,Orden no llegó,El repartidor marcó como entregado pero nunca llegó a mi puerta.,PENDIENTE
+COMP-0048,USR-43126,1655,Barranquilla,Comida,Sushi Fusión,250.49,202.43,2,242.25,NO confirmada,81,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0049,USR-23751,314,Puebla,Farmacia,Burger Express,195.49,115.32,4,865.2,NO confirmada,57,2,Producto incompleto,Faltaron 2 tacos de los 5 que pedí.,PENDIENTE
+COMP-0050,USR-63707,306,Lima,Comida,Taquería El Torito,245.63,123.12,2,925.5,Parcial,44,0,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0051,USR-77070,906,CDMX,Comida,Parrilla Clásica,332.06,205.89,0,349.66,NO confirmada,78,0,Producto incompleto,No incluyeron las salsas ni los cubiertos.,PENDIENTE
+COMP-0052,USR-98705,83,Lima,Mercado,Mariscos Premium,123.68,69.54,3,462.93,Parcial,74,1,Orden no llegó,El repartidor marcó como entregado pero nunca llegó a mi puerta.,PENDIENTE
+COMP-0053,USR-22183,1234,Santiago,Comida,La Cocina de Doña Rosa,335.92,253.38,1,319.96,Señal perdida,106,0,Orden no llegó,Marcaron entregado pero mi vecino dice que nadie tocó el timbre.,PENDIENTE
+COMP-0054,USR-31860,141,Guadalajara,Comida,Mariscos Premium,159.41,145.07,5,841.81,Parcial,46,2,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0055,USR-59774,126,Santiago,Farmacia,Taquería El Torito,303.57,218.47,5,552.55,SÍ - confirmada,51,2,Producto en mal estado,La carne tenía un color extraño y no se veía fresca.,PENDIENTE
+COMP-0056,USR-51187,233,CDMX,Farmacia,El Rincón Colombiano,317.26,256.89,6,276.19,NO confirmada,65,1,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0057,USR-96993,373,Buenos Aires,Comida,Tortas Don Chuy,140.74,111.12,3,604.45,Parcial,66,0,Producto en mal estado,La carne tenía un color extraño y no se veía fresca.,PENDIENTE
+COMP-0058,USR-19812,19,Barranquilla,Comida,Sushi Fusión,173.58,162.79,8,773.43,SÍ - confirmada,36,4,Producto incompleto,Faltó una orden de papas fritas.,PENDIENTE
+COMP-0059,USR-68733,394,CDMX,Mercado,Los Tacos de Siempre,126.75,86.39,2,645.7,SÍ - confirmada,40,2,Producto incompleto,Faltaron 2 tacos de los 5 que pedí.,PENDIENTE
+COMP-0060,USR-91142,246,Lima,Farmacia,Café Gourmet,433.62,376.15,5,465.58,Parcial,58,2,Producto incorrecto,"Llegó comida diferente, creo que confundieron mi pedido.",PENDIENTE
+COMP-0061,USR-69314,27,Guadalajara,Comida,El Rincón Colombiano,221.08,220.29,9,1804.92,SÍ - confirmada,33,4,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0062,USR-23935,44,CDMX,Comida,Los Tacos de Siempre,113.31,103.35,11,1074.3,SÍ - confirmada,28,4,Producto incorrecto,"Llegó comida diferente, creo que confundieron mi pedido.",PENDIENTE
+COMP-0063,USR-54293,290,Guadalajara,Mercado,Taquería El Torito,293.81,224.82,6,307.71,Parcial,35,2,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0064,USR-16366,150,Tijuana,Mercado,Tortas Don Chuy,382.89,221.37,3,282.84,Señal perdida,67,1,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0065,USR-64875,291,Córdoba,Comida,Pizzería Artesanal,425.82,239.39,6,760.01,Señal perdida,70,1,Orden llegó tarde,Llegó tan tarde que la comida estaba fría e inutilizable.,PENDIENTE
+COMP-0066,USR-82559,1007,Bogotá,Comida,Sushi Fusión,660.6,431.42,2,260.03,NO confirmada,87,0,Cobro incorrecto,Me aplicaron el precio sin descuento aunque tenía cupón activo.,PENDIENTE
+COMP-0067,USR-81105,1666,Lima,Comida,El Rincón Colombiano,555.06,482.73,2,114.37,NO confirmada,106,0,Producto incompleto,"Solo llegó parte de mi pedido, faltó la bebida.",PENDIENTE
+COMP-0068,USR-11673,8,Puebla,Comida,Taquería El Torito,113.98,111.13,7,2763.77,SÍ - confirmada,30,2,Orden llegó tarde,La orden prometía 30 minutos y tardó más de 2 horas.,PENDIENTE
+COMP-0069,USR-18130,1226,Lima,Comida,El Rincón Colombiano,251.24,237.98,2,224.75,NO confirmada,102,0,Cobro incorrecto,Me cobraron dos veces el mismo pedido.,PENDIENTE
+COMP-0070,USR-94819,1660,Tijuana,Mercado,Sushi Fusión,223.49,168.21,1,382.68,Señal perdida,75,0,Cobro incorrecto,Me aplicaron el precio sin descuento aunque tenía cupón activo.,PENDIENTE
+COMP-0071,USR-82368,286,CDMX,Comida,Mariscos Premium,435.39,396.28,4,804.09,NO confirmada,47,1,Producto incompleto,No incluyeron las salsas ni los cubiertos.,PENDIENTE
+COMP-0072,USR-68827,1177,Monterrey,Comida,La Cocina de Doña Rosa,339.56,239.63,0,233.59,NO confirmada,55,0,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0073,USR-53327,1580,Cali,Comida,Taquería El Torito,507.8,439.12,1,315.96,Señal perdida,77,0,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0074,USR-19552,141,Lima,Farmacia,Sushi Fusión,278.05,206.22,2,479.52,NO confirmada,56,1,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0075,USR-57290,1449,Lima,Comida,El Rincón Colombiano,611.84,607.22,0,45.89,NO confirmada,83,0,Cobro incorrecto,Me aplicaron el precio sin descuento aunque tenía cupón activo.,PENDIENTE
+COMP-0076,USR-41502,532,Córdoba,Farmacia,Sushi Fusión,392.94,320.68,1,9.88,Señal perdida,107,0,Orden no llegó,La app dice que fue entregado pero no recibí nada. Estuve en casa todo el día.,PENDIENTE
+COMP-0077,USR-59146,1634,Puebla,Farmacia,Los Tacos de Siempre,296.26,238.65,0,66.96,Señal perdida,89,0,Orden llegó tarde,La orden prometía 30 minutos y tardó más de 2 horas.,PENDIENTE
+COMP-0078,USR-10960,277,CDMX,Comida,Cevichería El Rey,437.55,259.25,5,717.25,SÍ - confirmada,44,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0079,USR-70191,21,Lima,Comida,Burger Express,174.87,167.44,8,2604.17,SÍ - confirmada,35,3,Orden no llegó,El repartidor marcó como entregado pero nunca llegó a mi puerta.,PENDIENTE
+COMP-0080,USR-69129,333,Buenos Aires,Mercado,El Asadero del Norte,122.24,100.74,2,804.77,SÍ - confirmada,39,1,Orden no llegó,Marcaron entregado pero mi vecino dice que nadie tocó el timbre.,PENDIENTE
+COMP-0081,USR-75907,204,Guadalajara,Comida,El Rincón Colombiano,410.8,286.31,5,857.7,SÍ - confirmada,65,0,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0082,USR-79922,1598,Bogotá,Comida,Mariscos Premium,272.04,236.92,2,259.18,NO confirmada,90,0,Orden llegó tarde,"Me tardé 1.5 horas más de lo estimado, la comida ya no servía.",PENDIENTE
+COMP-0083,USR-82754,474,Guadalajara,Comida,Taquería El Torito,352.35,316.87,2,137.54,NO confirmada,96,0,Orden no llegó,Marcaron entregado pero mi vecino dice que nadie tocó el timbre.,PENDIENTE
+COMP-0084,USR-77181,16,Guadalajara,Comida,La Cocina de Doña Rosa,194.07,185.67,5,2473.05,SÍ - confirmada,39,3,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0085,USR-94498,704,Tijuana,Comida,Pizzería Artesanal,562.79,447.35,1,142.86,Señal perdida,96,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0086,USR-40740,1222,Guadalajara,Comida,La Fonda Casera,364.17,314.56,2,233.67,Señal perdida,91,0,Orden no llegó,"Esperé 90 minutos y la orden nunca llegó, el repartidor no contestó.",PENDIENTE
+COMP-0087,USR-57774,19,Lima,Mercado,La Cocina de Doña Rosa,201.07,193.85,9,2448.24,SÍ - confirmada,26,4,Orden no llegó,La app dice que fue entregado pero no recibí nada. Estuve en casa todo el día.,PENDIENTE
+COMP-0088,USR-53458,522,Barranquilla,Mercado,Los Tacos de Siempre,287.89,242.59,1,343.49,NO confirmada,89,0,Producto incompleto,Faltó una orden de papas fritas.,PENDIENTE
+COMP-0089,USR-35746,383,Medellín,Comida,Mariscos Premium,131.85,100.45,5,815.36,NO confirmada,37,2,Orden no llegó,El repartidor marcó como entregado pero nunca llegó a mi puerta.,PENDIENTE
+COMP-0090,USR-44159,757,Tijuana,Farmacia,Los Tacos de Siempre,645.72,539.72,1,53.55,Señal perdida,87,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0091,USR-21869,374,Buenos Aires,Comida,Café Gourmet,379.98,319.47,3,556.98,NO confirmada,71,2,Orden no llegó,"Esperé 90 minutos y la orden nunca llegó, el repartidor no contestó.",PENDIENTE
+COMP-0092,USR-96430,178,Guadalajara,Mercado,El Asadero del Norte,143.89,95.87,2,734.87,Señal perdida,59,1,Orden no llegó,"Esperé 90 minutos y la orden nunca llegó, el repartidor no contestó.",PENDIENTE
+COMP-0093,USR-69591,326,CDMX,Comida,Cevichería El Rey,360.76,224.78,4,662.91,NO confirmada,59,2,Producto incompleto,Faltaron 2 tacos de los 5 que pedí.,PENDIENTE
+COMP-0094,USR-59613,1070,Santiago,Farmacia,Cevichería El Rey,686.34,473,1,141.16,NO confirmada,86,0,Producto en mal estado,La comida llegó con olor a descompuesto.,PENDIENTE
+COMP-0095,USR-73191,9,Córdoba,Comida,Café Gourmet,167.47,155.43,7,1011.19,SÍ - confirmada,33,4,Producto incorrecto,"Llegó comida diferente, creo que confundieron mi pedido.",PENDIENTE
+COMP-0096,USR-25509,1280,Bogotá,Mercado,El Rincón Colombiano,439.51,367.57,2,333.35,NO confirmada,70,0,Producto incompleto,Faltaron 2 tacos de los 5 que pedí.,PENDIENTE
+COMP-0097,USR-15655,80,Guadalajara,Farmacia,La Fonda Casera,458.5,259.55,3,406.61,NO confirmada,68,1,Producto incorrecto,Pedí tacos de res y llegaron de pollo.,PENDIENTE
+COMP-0098,USR-88558,170,Querétaro,Comida,Parrilla Clásica,290.7,275.22,5,336.45,Parcial,73,0,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0099,USR-86368,26,Monterrey,Farmacia,Cevichería El Rey,236.8,227.25,6,1105.59,SÍ - confirmada,34,2,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0100,USR-24230,136,CDMX,Comida,Café Gourmet,350.09,203,6,679.85,SÍ - confirmada,40,1,Producto en mal estado,La carne tenía un color extraño y no se veía fresca.,PENDIENTE
+COMP-0101,USR-96427,392,Guadalajara,Farmacia,Café Gourmet,283.97,195.74,2,758.11,Parcial,49,1,Producto en mal estado,La comida llegó con olor a descompuesto.,PENDIENTE
+COMP-0102,USR-59969,821,Santiago,Farmacia,El Rincón Colombiano,438.57,303.93,0,113.31,Señal perdida,81,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0103,USR-43791,541,Bogotá,Comida,Mariscos Premium,459.88,344.92,0,275.11,NO confirmada,81,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0104,USR-57483,1397,Guadalajara,Comida,Carnitas La Familia,411.78,307.29,1,396.72,NO confirmada,103,0,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0105,USR-36698,40,São Paulo,Farmacia,El Rincón Colombiano,174.33,161.32,9,1870.83,SÍ - confirmada,34,4,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0106,USR-28096,111,Guadalajara,Comida,Los Tacos de Siempre,201.49,137.06,4,840.68,SÍ - confirmada,45,1,Producto en mal estado,La carne tenía un color extraño y no se veía fresca.,PENDIENTE
+COMP-0107,USR-93345,282,CDMX,Comida,Tortas Don Chuy,153.49,94.92,4,264.03,SÍ - confirmada,59,1,Producto incorrecto,"Llegó comida diferente, creo que confundieron mi pedido.",PENDIENTE
+COMP-0108,USR-90473,149,Puebla,Comida,Mariscos Premium,363.31,253.42,3,880.45,Señal perdida,47,0,Cobro incorrecto,Me cobraron dos veces el mismo pedido.,PENDIENTE
+COMP-0109,USR-88579,244,Puebla,Farmacia,Mariscos Premium,210.92,105.49,3,269.47,Señal perdida,60,1,Producto incorrecto,Pedí tacos de res y llegaron de pollo.,PENDIENTE
+COMP-0110,USR-97773,95,Buenos Aires,Mercado,La Fonda Casera,469.29,350.71,6,932.01,Señal perdida,57,1,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0111,USR-39661,16,Córdoba,Comida,Los Tacos de Siempre,149.21,135.88,6,1706.97,SÍ - confirmada,32,2,Orden llegó tarde,"Me tardé 1.5 horas más de lo estimado, la comida ya no servía.",PENDIENTE
+COMP-0112,USR-77277,1206,Medellín,Farmacia,Tortas Don Chuy,683.03,563.68,0,302.99,NO confirmada,98,0,Producto en mal estado,La carne tenía un color extraño y no se veía fresca.,PENDIENTE
+COMP-0113,USR-70387,45,Querétaro,Comida,Los Tacos de Siempre,214.07,197.38,8,2360.36,SÍ - confirmada,35,3,Orden no llegó,La app dice que fue entregado pero no recibí nada. Estuve en casa todo el día.,PENDIENTE
+COMP-0114,USR-77699,10,Tijuana,Comida,Mariscos Premium,147.82,144.11,10,767.26,SÍ - confirmada,27,3,Producto en mal estado,El producto estaba caducado según la fecha en el empaque.,PENDIENTE
+COMP-0115,USR-51139,17,Santiago,Comida,Parrilla Clásica,164.83,151.64,8,2520.03,SÍ - confirmada,28,2,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0116,USR-36577,10,Bogotá,Farmacia,El Asadero del Norte,194.89,188.33,14,614.57,SÍ - confirmada,39,2,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0117,USR-73214,311,Santiago,Farmacia,El Asadero del Norte,189.49,159.91,6,424.21,NO confirmada,71,0,Orden llegó tarde,"Me tardé 1.5 horas más de lo estimado, la comida ya no servía.",PENDIENTE
+COMP-0118,USR-17097,1106,Puebla,Mercado,Los Tacos de Siempre,630.2,573.71,1,390.6,Señal perdida,88,0,Cobro incorrecto,Me cobraron dos veces el mismo pedido.,PENDIENTE
+COMP-0119,USR-70302,506,Lima,Comida,Taquería El Torito,362.72,306.54,1,74.86,NO confirmada,70,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0120,USR-45311,731,Barranquilla,Farmacia,El Asadero del Norte,409.55,368.95,1,341.73,NO confirmada,83,0,Producto incompleto,No incluyeron las salsas ni los cubiertos.,PENDIENTE
+COMP-0121,USR-33578,198,Querétaro,Comida,La Fonda Casera,425.55,319.12,5,356.85,NO confirmada,65,0,Orden cancelada sin reembolso,Cancelaron mi orden por falta de repartidor y no me reembolsaron.,PENDIENTE
+COMP-0122,USR-33148,1775,São Paulo,Mercado,La Cocina de Doña Rosa,357.86,284.37,1,224.86,Señal perdida,58,0,Producto en mal estado,La carne tenía un color extraño y no se veía fresca.,PENDIENTE
+COMP-0123,USR-62219,1589,Guadalajara,Comida,Taquería El Torito,248.15,222.8,1,144.38,Señal perdida,90,0,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0124,USR-43779,370,Santiago,Comida,Carnitas La Familia,195.6,148.49,6,339.63,Señal perdida,57,1,Orden no llegó,La app dice que fue entregado pero no recibí nada. Estuve en casa todo el día.,PENDIENTE
+COMP-0125,USR-98236,255,Puebla,Mercado,El Rincón Colombiano,353.19,250.3,3,894.61,Señal perdida,61,2,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0126,USR-90256,19,Querétaro,Mercado,Tortas Don Chuy,133.29,128.67,9,1931.85,SÍ - confirmada,34,3,Orden no llegó,El repartidor marcó como entregado pero nunca llegó a mi puerta.,PENDIENTE
+COMP-0127,USR-68313,6,Santiago,Farmacia,Café Gourmet,101.26,93.51,9,2668.96,SÍ - confirmada,24,2,Orden llegó tarde,Llegó tan tarde que la comida estaba fría e inutilizable.,PENDIENTE
+COMP-0128,USR-31877,353,Buenos Aires,Comida,Burger Express,585.47,473.99,0,41.57,Señal perdida,64,0,Orden no llegó,Marcaron entregado pero mi vecino dice que nadie tocó el timbre.,PENDIENTE
+COMP-0129,USR-21050,558,Buenos Aires,Comida,Sushi Fusión,265.64,248.48,0,14.06,NO confirmada,110,0,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0130,USR-52624,576,Barranquilla,Mercado,Tortas Don Chuy,684.77,601.95,0,236.33,NO confirmada,95,0,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0131,USR-93342,306,Querétaro,Mercado,Café Gourmet,325.07,280.25,5,446.29,Parcial,51,0,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0132,USR-49789,1260,CDMX,Comida,Café Gourmet,467.55,409.16,1,378.78,NO confirmada,74,0,Producto en mal estado,La comida llegó con olor a descompuesto.,PENDIENTE
+COMP-0133,USR-11197,686,São Paulo,Comida,La Fonda Casera,405.87,334.53,1,99.96,Señal perdida,102,0,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0134,USR-94671,790,Buenos Aires,Mercado,Sushi Fusión,458.31,421.64,2,323.03,Señal perdida,72,0,Producto incompleto,Faltaron 2 tacos de los 5 que pedí.,PENDIENTE
+COMP-0135,USR-47313,23,Tijuana,Comida,Carnitas La Familia,98.76,93.38,12,1198.7,SÍ - confirmada,37,2,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0136,USR-52027,11,CDMX,Comida,Taquería El Torito,127.96,116.76,12,2199.64,SÍ - confirmada,29,2,Cobro incorrecto,Me cobraron dos veces el mismo pedido.,PENDIENTE
+COMP-0137,USR-29750,1320,CDMX,Mercado,Sushi Fusión,698.98,549.03,0,132.1,NO confirmada,58,0,Producto incompleto,"Solo llegó parte de mi pedido, faltó la bebida.",PENDIENTE
+COMP-0138,USR-44931,21,Buenos Aires,Comida,Café Gourmet,218.93,215.17,6,2744.12,SÍ - confirmada,29,3,Orden llegó tarde,La orden prometía 30 minutos y tardó más de 2 horas.,PENDIENTE
+COMP-0139,USR-68059,326,Bogotá,Comida,Sushi Fusión,373.08,221.54,5,745.15,Señal perdida,55,0,Orden llegó tarde,"Me tardé 1.5 horas más de lo estimado, la comida ya no servía.",PENDIENTE
+COMP-0140,USR-92465,911,CDMX,Farmacia,Café Gourmet,299.36,285.89,2,87.12,NO confirmada,70,0,Orden no llegó,La app dice que fue entregado pero no recibí nada. Estuve en casa todo el día.,PENDIENTE
+COMP-0141,USR-92956,1110,São Paulo,Comida,Taquería El Torito,594.57,358.87,0,232.43,Señal perdida,85,0,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0142,USR-88146,10,Guadalajara,Comida,El Rincón Colombiano,196.61,183.6,5,731.51,SÍ - confirmada,26,4,Orden no llegó,"Esperé 90 minutos y la orden nunca llegó, el repartidor no contestó.",PENDIENTE
+COMP-0143,USR-80300,390,Guadalajara,Comida,Los Tacos de Siempre,407.55,351.51,5,786.55,SÍ - confirmada,59,1,Producto incorrecto,El refresco que llegó no es el que pedí.,PENDIENTE
+COMP-0144,USR-27659,1411,Medellín,Comida,Los Tacos de Siempre,548.52,370.75,0,217.45,NO confirmada,101,0,Orden cancelada sin reembolso,El restaurante canceló pero el cargo sigue en mi tarjeta.,PENDIENTE
+COMP-0145,USR-71393,38,Medellín,Farmacia,Parrilla Clásica,106.35,98.86,9,1791.53,SÍ - confirmada,36,2,Producto en mal estado,La carne tenía un color extraño y no se veía fresca.,PENDIENTE
+COMP-0146,USR-93627,246,Puebla,Mercado,Mariscos Premium,414.89,252.03,2,726.63,Parcial,47,2,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0147,USR-99551,1612,Barranquilla,Farmacia,La Cocina de Doña Rosa,361.01,230.51,2,26.67,NO confirmada,66,0,Cobro incorrecto,El monto cobrado no corresponde a lo que aparece en mi resumen.,PENDIENTE
+COMP-0148,USR-14099,29,Bogotá,Comida,Los Tacos de Siempre,191.85,182.75,14,1163.06,SÍ - confirmada,33,2,Producto incorrecto,Me mandaron una hamburguesa con queso y tengo alergia al lácteo.,PENDIENTE
+COMP-0149,USR-89423,100,CDMX,Comida,Parrilla Clásica,297.86,234.57,4,646.42,Parcial,58,2,Producto incorrecto,"Llegó comida diferente, creo que confundieron mi pedido.",PENDIENTE
+COMP-0150,USR-17641,99,Córdoba,Comida,Café Gourmet,478.95,446.51,2,280.98,NO confirmada,69,1,Orden no llegó,El repartidor marcó como entregado pero nunca llegó a mi puerta.,PENDIENTE

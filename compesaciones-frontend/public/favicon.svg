@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Dashboard Compesaciones">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1474d4"/>
+      <stop offset="1" stop-color="#0c5cab"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="21" y1="14" x2="43" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path
+    fill="url(#shield)"
+    d="M32 9.5 48 16v13.2c0 10.2-6.6 19.4-16 22.3-9.4-2.9-16-12.1-16-22.3V16l16-6.5Z"
+  />
+  <path
+    fill="#0c5cab"
+    d="M29.4 36.2 22.8 29.6l3.2-3.2 3.4 3.4 8.7-8.7 3.2 3.2-11.9 11.9Z"
+  />
+</svg>
