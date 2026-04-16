@@ -2,6 +2,14 @@
 
 Agente inteligente que automatiza la revisión de compensaciones potencialmente fraudulentas. Dashboard interactivo + chat conversacional donde el agente de CS puede explorar casos, cuestionar decisiones y reanalizar con nueva evidencia.
 
+## Entrega
+
+- Repositorio: https://github.com/isaacjruiz/trust-dashboard
+- App funcional: https://rappi-trust-frontend-3rus6fvyy-isaacs-projects-9c6bab35.vercel.app/
+- Backend API: https://rappi-trust-agent-production.up.railway.app
+
+La opción recomendada para revisar la solución es abrir la App funcional. El frontend está desplegado en Vercel y consume el backend desplegado en Railway.
+
 ## El problema
 
 Un agente de CS tarda **15–25 minutos por caso** revisando manualmente señales de fraude. Con 150+ casos/día: 50 horas de trabajo humano, criterio inconsistente entre agentes, y fraudes que se cuelan.
@@ -64,21 +72,50 @@ El chat está embebido dentro del detalle del caso. El agente de CS puede pregun
 **5. Bandeja de trabajo, no panel de analytics**
 El dashboard es para ejecutar decisiones rápido. Los APROBAR/RECHAZAR de alta confianza se confirman en batch. Los ESCALAR muestran la acción sugerida directo en la tabla, sin necesidad de abrir el detalle.
 
-## Ejecutar el proyecto
+## Ejecutar el proyecto localmente
+
+### Requisitos
+
+- Node.js 22.13 o superior
+- pnpm 10.x
+- Variables de entorno para funcionalidad completa de IA:
+  - `OPENAI_API_KEY`: análisis LLM de casos ambiguos
+  - `ANTHROPIC_API_KEY`: chat del agente conversacional
+
+Sin esas variables, el motor determinístico y la UI pueden correr, pero las respuestas LLM quedan limitadas.
+
+### Backend
 
 ```bash
-# Backend (puerto 4111)
 cd compesaciones-agent
 pnpm install
 pnpm dev
+```
 
-# Frontend (puerto 5173)
+El backend corre en `http://localhost:4111` y carga automáticamente `dataset.csv` al iniciar.
+
+### Frontend
+
+En otra terminal:
+
+```bash
 cd compesaciones-frontend
 pnpm install
 pnpm dev
 ```
 
-El backend carga automáticamente el `dataset.csv` al iniciar. El frontend conecta vía proxy Vite.
+El frontend corre en `http://localhost:5173` y conecta al backend local vía proxy Vite.
+
+Para apuntar el frontend local al backend desplegado en Railway:
+
+```bash
+cd compesaciones-frontend
+VITE_API_URL=https://rappi-trust-agent-production.up.railway.app pnpm dev
+```
+
+## Docker
+
+El repositorio incluye `compesaciones-agent/Dockerfile` para desplegar el backend en Railway. Para revisión local, la ruta más directa es usar `pnpm install` y `pnpm dev` en cada carpeta como se indica arriba. No se requiere Docker para correr el frontend.
 
 ## Qué mejoraría con más tiempo
 
@@ -99,5 +136,4 @@ El backend carga automáticamente el `dataset.csv` al iniciar. El frontend conec
 | `src/engine/policies.ts`                  | Umbrales y constantes centralizados                      |
 | `src/mastra/workflows/case-processing.ts` | Pipeline completo de análisis                            |
 | `src/mastra/agents/trust-agent.ts`        | Agente conversacional y sus tools                        |
-
 
