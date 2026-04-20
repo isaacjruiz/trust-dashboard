@@ -17,9 +17,9 @@ RUN pnpm run build
 
 # Runtime env vars — pass these at deploy time, never bake secrets into the image
 # Required:
-#   ANTHROPIC_API_KEY   — Claude Sonnet (trust agent chat)
-#   OPENAI_API_KEY      — GPT-4o-mini  (ESCALAR batch analysis)
+#   OPENAI_API_KEY      — GPT-5.4 mini  (chat, ESCALAR analysis, reanalysis)
 # Optional:
+#   TRUST_AGENT_MODEL   — defaults to gpt-5.4-mini
 #   PORT                — defaults to 4111
 
 EXPOSE 4111
