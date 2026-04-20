@@ -32,7 +32,7 @@ El AI ya procesó todo. El agente CS llega a su turno y ve su **bandeja de traba
 
 ```
 Backend:   Mastra (TypeScript) + Node.js
-AI:        OpenAI GPT-4o-mini via @ai-sdk/openai
+AI:        OpenAI GPT-5.4 mini via @ai-sdk/openai
 Frontend:  React + Vite + TypeScript + Tailwind CSS
 Datos:     In-memory store (Map) — producción usaría PostgreSQL
 ```
@@ -80,9 +80,9 @@ El dashboard es para ejecutar decisiones rápido. Los APROBAR/RECHAZAR de alta c
 - pnpm 10.x
 - Variables de entorno para funcionalidad completa de IA:
   - `OPENAI_API_KEY`: análisis LLM de casos ambiguos
-  - `ANTHROPIC_API_KEY`: chat del agente conversacional
+  - `TRUST_AGENT_MODEL`: modelo OpenAI opcional para el agente; default `gpt-5.4-mini`
 
-Sin esas variables, el motor determinístico y la UI pueden correr, pero las respuestas LLM quedan limitadas.
+Sin `OPENAI_API_KEY`, el motor determinístico y la UI pueden correr, pero las respuestas LLM quedan limitadas.
 
 ### Backend
 
@@ -136,4 +136,3 @@ El repositorio incluye `compesaciones-agent/Dockerfile` para desplegar el backen
 | `src/engine/policies.ts`                  | Umbrales y constantes centralizados                      |
 | `src/mastra/workflows/case-processing.ts` | Pipeline completo de análisis                            |
 | `src/mastra/agents/trust-agent.ts`        | Agente conversacional y sus tools                        |
-

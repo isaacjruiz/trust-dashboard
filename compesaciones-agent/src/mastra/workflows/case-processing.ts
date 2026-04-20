@@ -9,6 +9,7 @@ import { calculateRiskScore, getScoreBreakdown } from '../../engine/scoring.js';
 import { applyRules } from '../../engine/rules.js';
 import type { CaseDecision } from '../schemas/decision.js';
 import type { CaseEnriched } from '../schemas/enriched-case.js';
+import { TRUST_AGENT_MODEL } from '../models.js';
 
 // ─────────────────────────────────────────────────────────────
 // Step 1: Process all cases in a single step
@@ -95,7 +96,7 @@ const processAllCasesStep = createStep({
             try {
               const prompt = buildEscalarPrompt(c as unknown as CaseDecision);
               const { text } = await generateText({
-                model: openai('gpt-4o-mini'),
+                model: openai(TRUST_AGENT_MODEL),
                 prompt,
               });
 
@@ -145,7 +146,7 @@ const processAllCasesStep = createStep({
         );
       }
     } else {
-      console.log('[Workflow] ANTHROPIC_API_KEY not set — skipping LLM analysis, keeping ESCALAR decisions');
+      console.log('[Workflow] OPENAI_API_KEY not set — skipping LLM analysis, keeping ESCALAR decisions');
     }
 
     // ── Save to store ──────────────────────────────────────────

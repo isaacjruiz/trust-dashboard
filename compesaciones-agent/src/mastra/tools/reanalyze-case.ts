@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { generateText } from 'ai';
 import { openai } from '@ai-sdk/openai';
 import { caseStore } from '../../data/store.js';
+import { TRUST_AGENT_MODEL } from '../models.js';
 
 export const reanalyzeCaseTool = createTool({
   id: 'reanalyze-case',
@@ -60,7 +61,7 @@ Responde en formato JSON:
 
     try {
       const { text } = await generateText({
-        model: openai('gpt-4o-mini'),
+        model: openai(TRUST_AGENT_MODEL),
         prompt,
       });
 

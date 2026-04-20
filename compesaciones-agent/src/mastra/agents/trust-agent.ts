@@ -9,6 +9,7 @@ import { generateReportTool } from '../tools/generate-report.js';
 import { findPatternsTool } from '../tools/find-patterns.js';
 import { getCasesByUserTool } from '../tools/get-cases-by-user.js';
 import { dispatchCaseTool } from '../tools/dispatch-case.js';
+import { TRUST_AGENT_MODEL } from '../models.js';
 
 const SYSTEM_PROMPT = `
 Eres el Agente de Trust & Safety de Rappi. Asistes a agentes de Customer Service en la revisión de compensaciones potencialmente fraudulentas.
@@ -55,7 +56,7 @@ export const trustAgent = new Agent({
   id: 'trustAgent',
   name: 'Trust & Safety Agent',
   instructions: SYSTEM_PROMPT,
-  model: openai('gpt-4o-mini'),
+  model: openai(TRUST_AGENT_MODEL),
   tools: {
     getCaseTool,
     getCasesByStatusTool,
